@@ -17,7 +17,7 @@ set firstname='firstname',
     lastname='lastname',
     company='company',
     siret='',
-    email=CONCAT('email', id_customer, '@fakemail.com') 
+    email=CONCAT('email', id_customer, '@fakemail.com')
 where 1;
 
 update ps_address
@@ -25,7 +25,7 @@ set firstname='firstname',
     lastname='lastname',
     address1='12 impasse des ours',
     phone='0606060606',
-    phone_mobile='0606060606';
+    phone_mobile='0606060606',
     vat_number=''
 where 1;
 
@@ -52,7 +52,7 @@ set firstname='firstname',
     lastname='lastname',
     company='company',
     siret='',
-    email=CONCAT('email', id_customer, '@fakemail.com') 
+    email=CONCAT('email', id_customer, '@fakemail.com')
 where 1;
 
 update ps_address
@@ -60,7 +60,7 @@ set firstname='firstname',
     lastname='lastname',
     address1='12 impasse des ours',
     phone='0606060606',
-    phone_mobile='0606060606';
+    phone_mobile='0606060606',
     vat_number=''
 where 1;
 
