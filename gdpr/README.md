@@ -7,6 +7,8 @@ les environnements de développement ou de recette.
 
 Voilà 3 requêtes permettant la suppression de ces données. 
 
+Il peut arriver que d'autres modules contiennent des données personnelles, c'est alors à vous de supprimer/anonymiser celles-ci.
+Ce script n'est pas omnipotent. 
 
 **Attention à ne pas faire sur une base de production !**
 
@@ -42,6 +44,9 @@ where 1;
 In order to respect the GDPR, you are encouraged to not use any personal data in development or testing environment. 
 
 Here are 3 sql queries allowing you to remove those personal data.
+
+It may occur that some other modules will save personal data in other database tables. It is up to you to remove/anonymize those data. 
+This script doesn't affect thoses module data.  
 
 **Never use thoses in production environment !**
 
